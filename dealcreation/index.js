@@ -83,13 +83,13 @@ function createcodes() {
             <td width="210">
                <table cellpadding="0" cellspacing="0" border="0">
                   <tr>
-                     <td align="center"><a href="${link}&eeid=\${eeid}&ebtoken=\${Recipient.JWT_TOKEN}&utm_source=rakuten&utm_medium=email&utm_channel=email&utm_campaign=\${utmCampaign}&utm_content=\${utmDate}" style="text-decoration:none"><img src="https://static.ebates.com/\${store${i}.large_logo}" alt="\${store${i}.store_name}" height="40" width="150" ></a></td>
+                     <td align="center"><a href="${link}&eeid=\${eeid}&ebtoken=\${Recipient.JWT_TOKEN}&utm_source=rakuten&utm_medium=email&utm_channel=email&utm_campaign=\${utmCampaign}&utm_content=\${utmDate}" style="text-decoration:none"><img src="https://static.ebates.com/\${store${i}.large_logo}" alt="\${store${i}.store_name}" height="40" width="150" border="0"></a></td>
                   </tr>
                   <tr>
                      <td style="font-size:0px;line-height:0px;"><img src="http://www.rakuten.com/email/x.gif" alt="" border="0" style="display:block;" width="2" height="20"></td>
                   </tr>
                   <tr>
-                     <td style="line-height: 0px; font-size: 0px;" align="center" width="210"><a href="${link}&eeid=\${eeid}&ebtoken=\${Recipient.JWT_TOKEN}&utm_source=rakuten&utm_medium=email&utm_channel=email&utm_campaign=\${utmCampaign}&utm_content=\${utmDate}" style="text-decoration:none"><span style="display: inline"><img src="https://mg-cf.s3.amazonaws.com/img/15C3AD3A7F45A77D48AD7FF3FA2EEE5ED3FEAB5D/2019_NewHDTemplate/CirclePlus.png" width="24" height="20" style="display:inline;border:0;vertical-align:-0.5px;" alt=""></span><span style="font-family:'Benton Sans Med', Helvetica, Arial, San-serif; color:#ED5050;font-size:24px;line-height:28px;">\${store${i}.cashback_display} Cash&amp;nbsp;Back</span></a></td>
+                     <td style="line-height: 0px; font-size: 0px;" align="center" width="210"><a href="${link}&eeid=\${eeid}&ebtoken=\${Recipient.JWT_TOKEN}&utm_source=rakuten&utm_medium=email&utm_channel=email&utm_campaign=\${utmCampaign}&utm_content=\${utmDate}" style="text-decoration:none"><span style="display: inline"><img src="https://mg-cf.s3.amazonaws.com/img/15C3AD3A7F45A77D48AD7FF3FA2EEE5ED3FEAB5D/2019_NewHDTemplate/CirclePlus.png" width="24" height="20" style="display:inline;border:0;vertical-align:-0.5px;" alt=""></span><span style="font-family:'Benton Sans Med', Helvetica, Arial, San-serif; color:#ED5050;font-size:24px;line-height:28px;">\${store${i}.cashback_display} Cash&nbsp;Back</span></a></td>
                   </tr>
                </table>
             </td>
