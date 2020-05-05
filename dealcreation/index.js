@@ -71,6 +71,7 @@ function createcodes() {
     for (let i = 1; i < tableobj.size+1; i++) {
         console.log(allrows);
         let link = tableobj.get(i)[3].replace("ebates.com", "rakuten.com");
+        link=link.replace("http://", "https://");
         allrows = allrows + `<!--store ${i}-->
 <tr>
    <td><img src="http://www.rakuten.com/email/x.gif" alt="" border="0" style="display:block;" width="1" height="80"></td>
