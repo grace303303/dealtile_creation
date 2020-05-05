@@ -1,0 +1,42 @@
+body {
+text-align: center;
+}
+
+
+.form-control {
+width: 90%;
+margin: auto;
+}
+
+button {
+    margin: 20px 0;
+}
+
+.hide{
+    display: none;
+}
+
+
+.table {
+    width: 90%;
+    margin: auto;
+}
+
+.show-block {
+    display: block;
+}
+
+.pre-scrollable {
+    width: 60%;
+    margin: auto;
+    overflow-x: scroll;
+    text-align: left;
+    height: 100px;
+    margin-bottom: 100px;
+    border:1px solid rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 3px;
+    -moz-border-radius:3px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
