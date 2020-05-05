@@ -63,10 +63,9 @@ function createcodes() {
       </table>
    </td>
 </tr>
-<!--End of deal-->
 <tr>
    <td><img src="http://www.rakuten.com/email/x.gif" alt="" border="0" style="display:block;" width="1" height="20"></td>
-</tr>`
+</tr><!--End of deal-->`
     let allrows = '';
     for (let i = 1; i < tableobj.size+1; i++) {
         console.log(allrows);
